@@ -13,6 +13,7 @@ void fix_fgets_input(char *);
 void input_credentials(char *, char *);
 void getUserDetails();
 void breakStatement();
+
 typedef struct
 {
     char username[CREDENTIAL_LENGTH];
